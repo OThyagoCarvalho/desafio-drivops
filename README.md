@@ -26,5 +26,6 @@ at frontend :
 - should be able to create salesmen (vendedores), cars (carros), sales (vendas); 
 - should be logged out as soon as the JWT token expires as a consequence of receiving
 
+DISCLAIMER: LEFT ENV FILES AT THE PROJECTS SINCE THERE'S NO REAL SENSITIVE INFORMATION! 
 
 video demonstration at : https://drive.google.com/file/d/1n2Alrzclp9XPw-aC14qemRkWUJzt-e7B/view?usp=share_link
