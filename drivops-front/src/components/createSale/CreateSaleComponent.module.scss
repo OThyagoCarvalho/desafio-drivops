@@ -1,0 +1,44 @@
+.createSaleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > span > button {
+    margin-left: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    line-height: 1;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+}
+
+.modal {
+  position: relative;
+  padding: 2.5rem;
+  margin: 0 auto;
+  
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
+.closeModalButton {
+  background-color: var(--color-error);
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.disabledButton {
+  background-color: var(--color-error);
+}
+
+.createSaleFormInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  input {
+    margin: 1rem 0.5rem;
+  }
+}
